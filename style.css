@@ -1,0 +1,21 @@
+#welcome{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.input-group{
+    padding: 50px;
+}
+.first{
+  margin-left: 10%;
+  font-size: 50px;
+  color: red;
+
+}
+#btn{
+    margin-left: 10%;
+    border-radius: 4px;
+   padding: 10px 20px;
+   background-color: red;
+   color: white;
+}

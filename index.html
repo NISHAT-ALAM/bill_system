@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script>
+function calculate(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+
+b=Number(document.getElementById("second").value);
+c=( b - a)*5;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+    <h1 id="welcome">WELCOME TO OUR BILL SYSTEM</h1>
+<samp class="first"> Last month unit :</samp>  <input id="first">
+<br>
+<br>
+<samp  class="first"> This month unit :</samp> <input id="second">
+<br>
+<br>
+<h3  class="first">Per unit Price=5</h3>
+
+<samp class="first">Total Bill:</samp><input id="answer">
+<br>
+<br>
+
+<button id="btn" onclick="calculate()">Total Bill</button>
+</body>
+</html>
